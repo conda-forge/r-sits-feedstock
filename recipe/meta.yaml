@@ -1,4 +1,4 @@
-{% set version = '0.11.1' %}
+{% set version = "0.12.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -9,10 +9,10 @@ package:
 source:
   url:
     - https://github.com/e-sensing/sits/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 873c3eb2ce0fdce504ea9dabf3e0870f82e29f851a5baae70e74939aa1e14613 
+  sha256: 6bf8b6c661ef81d79c166868972d12ad439017f1d109525908f94b39416901ae
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   rpaths:
     - lib/R/lib/
@@ -106,7 +106,7 @@ about:
 
   license_family: GPL3
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
     - LICENSE
 
 extra:
