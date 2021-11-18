@@ -1,4 +1,4 @@
-{% set version = "0.15.0" %}
+{% set version = "0.15.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -9,7 +9,7 @@ package:
 source:
   url:
     - https://github.com/e-sensing/sits/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c3329bac37120a89f1947b3bd12f69f6ca6afd59a6827c21ae2edea8482573bf
+  sha256: 30ebd4df40366e9828d77ccca2dc3f3321647db4ee18615c9a56c5c79819fd21
 
 build:
   merge_build_host: true  # [win]
