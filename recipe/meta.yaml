@@ -67,6 +67,8 @@ requirements:
     - r-slider >=0.1.5
     - r-tibble >=3.0
     - r-terra >=1.4.11
+    - r-tidyr
+    - r-torch
   run:
     - r-base
     - r-magrittr
@@ -88,6 +90,8 @@ requirements:
     - r-slider >=0.1.5
     - r-tibble >=3.0
     - r-terra >=1.0.10
+    - r-tidyr
+    - r-torch
 
 test:
   commands:
