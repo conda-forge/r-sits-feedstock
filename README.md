@@ -1,11 +1,31 @@
+About r-sits-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sits-feedstock/blob/main/LICENSE.txt)
+
 About r-sits
-============
+------------
 
 Home: https://github.com/e-sensing/sits
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sits-feedstock/blob/main/LICENSE.txt)
+Summary: The sits R package provides a set of tools for analysis, visualization and classification of satellite image time series. The main aim of SITS is to support land cover and land change classification of image data cubes using machine learning methods. The basic workflow in SITS is:
+
+1. Create a data cube using image collections available in the cloud or in local machines.
+2. Extract time series from the data cube which are used as training data.
+3. Perform quality control and filtering on the samples.
+4. Train a machine learning model using the extracted samples.
+5. Classify the data cube using the trained model.
+6. Post-process the classified images.
+7. Evaluate the accuracy of the classification using best practices.
+
+About r-sits
+------------
+
+Home: https://github.com/e-sensing/sits
+
+Package license: GPL-3.0-or-later
 
 Summary: The sits R package provides a set of tools for analysis, visualization and classification of satellite image time series. The main aim of SITS is to support land cover and land change classification of image data cubes using machine learning methods. The basic workflow in SITS is:
 
