@@ -3,6 +3,7 @@ About r-sits-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sits-feedstock/blob/main/LICENSE.txt)
 
+
 About r-sits
 ------------
 
@@ -19,6 +20,7 @@ Summary: The sits R package provides a set of tools for analysis, visualization 
 5. Classify the data cube using the trained model.
 6. Post-process the classified images.
 7. Evaluate the accuracy of the classification using best practices.
+
 
 About r-sits
 ------------
