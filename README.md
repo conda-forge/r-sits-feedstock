@@ -9,7 +9,7 @@ About r-sits
 
 Home: https://github.com/e-sensing/sits
 
-Package license: GPL-3.0-or-later
+Package license: GPL-2.0-only
 
 Summary: The sits R package provides a set of tools for analysis, visualization and classification of satellite image time series. The main aim of SITS is to support land cover and land change classification of image data cubes using machine learning methods. The basic workflow in SITS is:
 
@@ -27,7 +27,7 @@ About r-sits
 
 Home: https://github.com/e-sensing/sits
 
-Package license: GPL-3.0-or-later
+Package license: GPL-2.0-only
 
 Summary: The sits R package provides a set of tools for analysis, visualization and classification of satellite image time series. The main aim of SITS is to support land cover and land change classification of image data cubes using machine learning methods. The basic workflow in SITS is:
 
