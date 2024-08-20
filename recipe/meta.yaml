@@ -1,4 +1,4 @@
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sits_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sits/sits_{{ version }}.tar.gz
-  sha256: 5aaf88adeb151c638dc6954b88bbae2f697f494d97c7a93ddc326e1bf86ca67a
+  sha256: 3c5d9ed930990d7b3a34baa1f8f7b0f9d6447bb159f6cfb4fcd8aafc51581c4c
 
 build:
   merge_build_host: true  # [win]
