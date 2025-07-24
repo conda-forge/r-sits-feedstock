@@ -1,4 +1,4 @@
-{% set version = "1.5.1" %}
+{% set version = "1.5.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,12 +9,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sits_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sits/sits_{{ version }}.tar.gz
-  sha256: 3c5d9ed930990d7b3a34baa1f8f7b0f9d6447bb159f6cfb4fcd8aafc51581c4c
+  sha256: 41107ac6ee3db3dafd26b2d96e86d52eb33342b218137e52e155f82cd39c0f0e
 
 build:
   # Checking windows to see if it passes. Uncomment the line if it fails.
   skip: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
