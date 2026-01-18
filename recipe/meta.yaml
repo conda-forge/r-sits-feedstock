@@ -1,4 +1,4 @@
-{% set version = "1.5.3-2" %}
+{% set version = "1.5.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sits_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sits/sits_{{ version }}.tar.gz
-  sha256: d54c5f8b733c41a3f5a8bc0818fc84df5e04fe4c788400e73254a46c779cc2b1
+  sha256: e7d0f6b711a97cc9234746a519bb909a4d62f07aa94994f9d1b78613de084b33
 
 build:
   skip: true  # [win]
